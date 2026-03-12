@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RASTREIO CPF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Rastreio Endereço</h2>
+        
+        <div class="busca-container">
+            <input type="tel" id="cep" placeholder="00000000" maxlength="8">
+            <button id="btn-buscar">Pesquisar</button>
+        </div>
+
+        <div id="erro" class="erro"></div>
+
+        <div id="resultado" class="resultado">
+            <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+            <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+            <p><strong>Cidade:</strong> <span id="localidade"></span></p>
+            <p><strong>UF:</strong> <span id="uf"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
